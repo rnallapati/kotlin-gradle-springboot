@@ -1,0 +1,11 @@
+version: "3.7"
+
+services:
+  java-server:
+    build: .
+    container_name: "kotlin-web"
+    ports: 
+     - "8080:8080"
+    volumes:
+      - ./app:/app
+    command: ./gradlew bootRun --continuous
