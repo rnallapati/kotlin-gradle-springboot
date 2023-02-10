@@ -6,4 +6,12 @@ Extract the contents of the zip file to app/ folder. Then go to where docker-com
   
 You should be able to see Hello World! in http://localhost:8080/
   
-There's already a sample application in /app/ folder, but it's best to get the latest version from the link above.
+There's already a sample application in /app/ folder.  The sample application was generated using the follwing options:  
+  
+Project: Gradle - Kotlin  
+Language: Kotlin  
+Spring Boot: 3.0.2  
+Java: 17
+Dependencies: Spring Web (click on ADD DEPENDENCIES and select Spring Web)  
+  
+It is probably a good idea get the latest/preferred version from the start.spring.io.
