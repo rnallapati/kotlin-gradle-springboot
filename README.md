@@ -11,7 +11,7 @@ There's already a sample application in /app/ folder.  The sample application wa
 Project: Gradle - Kotlin  
 Language: Kotlin  
 Spring Boot: 3.0.2  
-Java: 17
+Java: 17  
 Dependencies: Spring Web (click on ADD DEPENDENCIES and select Spring Web)  
   
 It is probably a good idea get the latest/preferred version from the start.spring.io.
