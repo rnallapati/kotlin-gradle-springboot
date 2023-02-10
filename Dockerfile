@@ -7,6 +7,7 @@ RUN chmod a+x "$HOME/.sdkman/bin/sdkman-init.sh"
 RUN source "$HOME/.sdkman/bin/sdkman-init.sh" && sdk install kotlin
 WORKDIR /app
 COPY app .
+EXPOSE 8080
 RUN chmod +x gradlew
 RUN ./gradlew build
 # CMD ["./gradlew", "bootRun"]
